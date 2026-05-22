@@ -1,0 +1,15 @@
+<?php
+// Input student's grade
+echo "Enter student's grade: ";
+$grade = (int)readline();
+
+if ($grade >= 90 && $grade <= 100) {
+    echo "Excellent";
+} elseif ($grade >= 80 && $grade <= 89) {
+    echo "Good";
+} elseif ($grade >= 70 && $grade <= 79) {
+    echo "Average";
+} elseif ($grade < 70) {
+    echo "Failed";
+}
+?>
